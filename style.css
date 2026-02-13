@@ -1,0 +1,632 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/************** fonts ***************/
+@font-face {
+  font-family: Playfairdisplay;
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.woff2);
+}
+/************** farver **************/
+
+.color1 {
+  color: #a6968d;
+}
+
+.color2 {
+  color: #000000;
+}
+.color3 {
+  color: #bf928e;
+}
+.color4 {
+  color: #d9c1bf;
+}
+.color5 {
+  color: #f2f2f2;
+}
+
+.color6 {
+  color: #e0b5b5;
+}
+
+.backgroundcolor {
+  background-color: #d9c1bf;
+}
+
+.footer {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 3rem;
+  margin-left: 1rem;
+}
+
+/****************general ****************/
+main {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 2rem auto;
+  margin-block: 2rem 2rem;
+  background-color: #e0b5b5;
+}
+
+body {
+  margin: 1.5rem;
+}
+p {
+  max-width: 65ch;
+}
+
+h1 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+/***********MENU***********/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #bf928e;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #a6968d;
+}
+
+/*****************img************/
+img {
+  border: 4px solid #000000;
+}
+/*************** index.html ***************/
+h1 {
+  text-align: start;
+  font-size: 3.5rem;
+  font-family: Playfairdisplay, serif;
+  margin-top: 3rem;
+  text-shadow: 3px 5px 5px#A6968D;
+  margin-left: 1rem;
+}
+
+.text1forside {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 1rem;
+}
+
+.linkforside {
+  font-family: "Tinos", serif;
+  font-size: 1.4rem;
+  color: #000000;
+  text-align: center;
+  line-height: 35px;
+}
+
+.buttonforside {
+  display: grid;
+  align-self: center;
+  background-color: #bf928e;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.buttonforside:hover {
+  background-color: #a6968d;
+  color: #a6968d;
+}
+
+.forsidebild1 {
+  padding-inline: 1rem;
+  margin-block: 1rem;
+  border: none;
+}
+
+.forsideh2 {
+  font-family: "Tinos", serif;
+  font-size: 2.3rem;
+  text-shadow: #a6968d 3px 5px 5px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.pforside {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 1rem;
+}
+
+.forsidepunkt1 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.procent1 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.forsidepunkt2 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.procent2 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.forsidepunkt3 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.procent3 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.forsidepunkt4 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.procent4 {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 1rem;
+}
+
+.forsidepunkt {
+  margin-left: 1.5rem;
+  margin-block: 1rem;
+  width: 200px;
+  height: 250px;
+  background-color: #a6968d;
+}
+.forsidebild2 {
+  margin-block: 1rem;
+}
+
+/*********** min computer **************/
+.h1mincomputer {
+  margin-top: 3rem;
+  text-shadow: 3px 5px 5px#A6968D;
+  margin-left: 1rem;
+}
+
+.computerdummy {
+  margin-block: 1rem;
+  margin-left: 1rem;
+}
+
+.h21computer {
+  font-family: "Tinos", serif;
+  font-size: 2.3rem;
+  text-shadow: #a6968d 3px 5px 5px;
+  margin-left: 1rem;
+}
+
+.p1computere {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 1rem;
+  margin-inline: 1rem;
+}
+
+.h22computer {
+  font-family: "Tinos", serif;
+  font-size: 2.3rem;
+  text-shadow: #a6968d 3px 5px 5px;
+  margin-left: 1rem;
+  margin-inline: 1rem;
+}
+
+.p2computer {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 1rem;
+}
+
+.punkt1computer {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 2rem;
+}
+
+.punkt2computer {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 2rem;
+}
+
+.punkt3computer {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 2rem;
+}
+.punkt4computer {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 0.5rem;
+  margin-left: 2rem;
+}
+/************ operativsystem *************/
+
+.h1operativ {
+  margin-block: 2rem;
+  text-shadow: 3px 5px 5px#A6968D;
+}
+
+.h21operativ {
+  font-family: "Tinos", serif;
+  font-size: 2.3rem;
+  text-shadow: #a6968d 3px 5px 5px;
+}
+
+.p1operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+}
+
+.button1operativ {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-block: 1rem;
+  width: 700px;
+  height: 150px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #a6968d;
+}
+
+.p2operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.button2operativ {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-block: 1rem;
+  width: 700px;
+  height: 150px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #a6968d;
+}
+
+.p3operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+}
+
+.button3operativ {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-block: 1rem;
+  width: 700px;
+  height: 150px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #a6968d;
+}
+
+.h22operativ {
+  font-family: "Tinos", serif;
+  font-size: 2.3rem;
+  text-shadow: #a6968d 3px 5px 5px;
+  margin-left: 1rem;
+}
+
+.p4operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+  margin-left: 1rem;
+}
+
+.button4operativ {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-block: 1rem;
+  width: 700px;
+  height: 150px;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  background-color: #bf928e;
+}
+
+.p5operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+  margin-left: 1rem;
+}
+
+.button5operativ {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-block: 1rem;
+  width: 700px;
+  height: 150px;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  background-color: #bf928e;
+}
+
+.p6operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+  margin-left: 1rem;
+}
+
+.button6operativ {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-block: 1rem;
+  width: 700px;
+  height: 150px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #bf928e;
+}
+
+.h23operativ {
+  font-family: "Tinos", serif;
+  font-size: 2.3rem;
+  text-shadow: #a6968d 3px 5px 5px;
+  margin-left: 1rem;
+  margin-block: 1rem;
+}
+
+.p7operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+  margin-left: 1rem;
+}
+
+.p8operativ {
+  font-family: "Tinos", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .h21operativ {
+    margin: 2rem 2rem;
+  }
+  .h22operativ {
+    margin: 2rem 2rem;
+  }
+  .h2 {
+    margin-block: 2rem;
+  }
+  .h3 {
+    margin-block: 2rem;
+  }
+}
+@media (min-width: 600px) {
+  .imgoperativ2 {
+    margin-block: 5rem 5rem;
+  }
+
+  /************ kompontenter **************/
+  .h1komponenter {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 3px 5px 5px#A6968D;
+    margin-left: 0.5rem;
+  }
+
+  .h2komponenter {
+    font-family: "Tinos", serif;
+    font-size: 2.3rem;
+    text-shadow: #a6968d 3px 5px 5px;
+    margin-block: 1rem;
+  }
+
+  .p1komponenter {
+    font-family: "Tinos", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block: 1rem;
+  }
+
+  .p2komponenter {
+    font-family: "Tinos", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block: 1rem;
+  }
+
+  .p3komponenter {
+    font-family: "Tinos", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block: 1rem;
+  }
+
+  .img2komponenter {
+    margin-block: 1rem;
+  }
+
+  .h21komponenter {
+    font-family: "Tinos", serif;
+    font-size: 2.3rem;
+    text-shadow: #a6968d 3px 5px 5px;
+    margin-block: 1rem;
+  }
+
+  .p4komponenter {
+    font-family: "Tinos", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block: 1rem;
+  }
+
+  .h22komponenter {
+    font-family: "Tinos", serif;
+    text-shadow: #a6968d 3px 5px 5px;
+
+    margin-block: 1rem;
+  }
+
+  .p5komponenter {
+    font-family: "Tinos", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block: 1rem;
+  }
+
+  .h23komponenter {
+    font-family: "Tinos", serif;
+    text-shadow: #a6968d 3px 5px 5px;
+
+    margin-block: 1rem;
+  }
+
+  .img4komponenter {
+    margin-block: 1rem;
+  }
+
+  .h24komponenter {
+    font-family: "Tinos", serif;
+    font-size: 2.3rem;
+    text-shadow: #a6968d 3px 5px 5px;
+    margin-block: 1rem;
+  }
+
+  .p6komponenter {
+    font-family: "Tinos", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block: 1rem;
+  }
+
+  .img6komponenter {
+    margin-block: 1rem;
+  }
+
+  /************ galleri ******************/
+
+  .h1galleri {
+    margin-top: 1rem;
+    text-shadow: 3px 5px 5px#A6968D;
+  }
+
+  .h2galleri {
+    font-family: "Tinos", serif;
+    font-size: 2.3rem;
+    text-shadow: #a6968d 3px 5px 5px;
+
+    margin-top: 1.5rem;
+  }
+
+  .p1galleri {
+    font-family: "Tinos", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block: 1rem;
+  }
+}
